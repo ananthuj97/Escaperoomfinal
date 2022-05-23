@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./aboutPage.css";
 import leftDesign from "../../images/page3.png";
 import button from "../../images/B2.png";
-import { Link } from 'react-router-dom';
 
 class AboutPage extends Component {
     render() {
@@ -10,7 +9,7 @@ class AboutPage extends Component {
             <React.Fragment>
                 <div className="about-page">
                     <div className="design">
-                        <img src={leftDesign} />
+                        <img src={leftDesign} alt=""/>
                     </div>
                     <div className="text">
                         <h1>About</h1>
@@ -24,7 +23,7 @@ class AboutPage extends Component {
                     </div>
                 </div>
                 <div>
-                    <img src={button} />
+                    <img src={button} alt=""/>
                 </div>
             </React.Fragment>
 

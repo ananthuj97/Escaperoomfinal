@@ -22,7 +22,7 @@ class LandingPage extends Component {
                         <h3 className="heading-2">ESCAPEROOMS</h3>
                         <h1 className="heading-3">Check your cyber security skills to the test and help Company X.</h1>
                         <div>
-                            <Link to="/introPage"><img src={button} /></Link>
+                            <Link to="/introPage"><img src={button} alt=""/></Link>
                         </div>
                     </div>
 

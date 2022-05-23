@@ -14,9 +14,9 @@ class IntroPage extends Component {
                         <h2 className="heading-1">BREAKINS]</h2>
                         <h3 className="heading-2">ESCAPEROOMS</h3>
                         <h1 className="heading-3">Check your cyber security skills to the test and help Company X.</h1>
-                        <img src={user} />
+                        <img src={user} alt=""/>
                         <div>
-                            <Link to="/aboutPage"><img src={button} /></Link>
+                            <Link to="/aboutPage"><img src={button} alt=""/></Link>
                         </div>
                     </div>
 
