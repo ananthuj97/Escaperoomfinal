@@ -8,6 +8,7 @@ import IntroPage from './pages/introPage/introPage';
 import AboutPage from './pages/aboutPage/aboutPage';
 import RulesPage from './pages/rulesPage/rulesPage';
 import TimePage from './pages/timePage/timePage';
+import AnswerPage from './pages/answerPage/answerPage';
 
 const AllRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AllRoutes = () => {
       <Route path={"/aboutPage"} element={<AboutPage />} />
       <Route path={"/rulesPage"} element={<RulesPage />} />
       <Route path={"/timePage"} element={<TimePage />} />
+      <Route path={"/answerPage/:id"} element={<AnswerPage />} />
     </Routes>
   )
 

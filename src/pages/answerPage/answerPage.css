@@ -1,0 +1,38 @@
+.answer-page {
+    height: 100vh;
+    padding: 7%;
+}
+
+.answer-page .button {
+    background: #3870FF;
+    border-radius: 12px;
+    margin: 2%;
+}
+
+.answer-page .input {
+    background: #131117;
+    border: 1.42222px solid #3A3A3A;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+
+.answer-page h1{
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 78px;
+
+    background: linear-gradient(135deg, #FF5F6D 2.88%, #FFC371 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.answer-page .back {
+    float: left;
+}
