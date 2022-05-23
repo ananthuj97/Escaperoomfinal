@@ -8,7 +8,7 @@
 }
 
 .headings {
-    margin-top: -70vh;
+    margin-top: -91vh;
     z-index: 1;
 }
 
@@ -47,4 +47,8 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.headings .logo {
+    width: 75vh;
 }

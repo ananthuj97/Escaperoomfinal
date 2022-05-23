@@ -12,6 +12,10 @@
     z-index: 1;
 }
 
+.intro-page .headings .logo{
+    width: 70vh;
+}
+
 .heading-1 {
     font-family: 'Bebas Neue';
     font-style: normal;

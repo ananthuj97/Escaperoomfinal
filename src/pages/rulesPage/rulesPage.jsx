@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./rulesPage.css";
 import checked from "../../images/checked.png";
 import button from "../../images/B2.png";
-
+import { Link } from "react-router-dom";
 class RulesPage extends Component {
     render() {
         return (
@@ -42,7 +42,7 @@ class RulesPage extends Component {
                         </div>
                     </div>
                     <div>
-                    <img src={button} alt=""/>
+                    <Link to="/timePage"><img src={button} alt=""/></Link>
                 </div>
                 </div>
                 
