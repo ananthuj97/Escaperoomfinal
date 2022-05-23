@@ -1,0 +1,40 @@
+.about-page {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.text h1{
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 78px;
+
+    background: linear-gradient(135deg, #FF5F6D 2.88%, #FFC371 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text p{
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 52px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    word-wrap: break-word;
+    height: auto;
+}
+
+.design img {
+    height: 90vh;
+}

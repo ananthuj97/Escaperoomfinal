@@ -1,0 +1,50 @@
+.intro-page {
+    position: relative;
+}
+.video-background {
+    width: 99vw;
+    height: 99vh;
+    z-index: -1;
+}
+
+.intro-page .headings {
+    margin-top: -98vh;
+    z-index: 1;
+}
+
+.heading-1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 128px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.heading-2 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.heading-3 {
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
