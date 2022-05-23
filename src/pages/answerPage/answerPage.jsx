@@ -10,13 +10,13 @@ const AnswerPage = () => {
     const [backUrl, setBackUrl] = useState("");
     let params = useParams();
     useEffect(() => {
-        let ansObj = answers.filter((item) => item.id == params.id)[0];
+        let ansObj = answers.filter((item) => item.id === params.id)[0];
         setBackUrl(ansObj.backLink)
-    }, [])
+    }, [params.id])
     const validateAnser = () => {
         setError("");
-        let ansObj = answers.filter((item) => item.id == params.id)[0];
-        if(ansObj.ans != answer) {
+        let ansObj = answers.filter((item) => item.id === params.id)[0];
+        if(ansObj.ans !== answer) {
             setError("Worng code !!!")
         } else {
             window.location.replace(ansObj.link)
@@ -27,7 +27,7 @@ const AnswerPage = () => {
             <div className="answer-page">
                 <a href={backUrl}><img className="back" src={back} alt=""/></a>
                 <h1>Answer</h1>
-                { error != "" ? <div><h1>{error}</h1></div> : <span/>}
+                { error !== "" ? <div><h1>{error}</h1></div> : <span/>}
                 <div><input className="input" onChange={e => setAnswer(e.target.value)}/></div>
                 <div><button className="button" onClick={validateAnser}>Submit</button></div>
             </div>
